@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #fafafa;
+    height: 3000px;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.inner {
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    line-height: 100px;
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin: 0 20px;
+}
+
+.nav li a {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    color: #2288f6;
+}
+
+.banner {
+    height: 620px;
+    background: url("../image/banner.png") no-repeat top center;
+}
+
+.service {
+    width: 1054px;
+    height: 600px;
+    margin: 75px auto 0;
+    /*background-color: skyblue;*/
+}
+
+.service-hd {
+    /*background-color: #2288f6;*/
+    margin: 0 25px;
+    border-top: 1px solid #ccc;
+
+}
+
+.service-hd h3 {
+    width: 165px;
+    height: 45px;
+    margin: -15px auto 0;
+}
+
+.service-hd p {
+    font-family: 微软雅黑;
+    color: #666;
+    width: 830px;
+    margin: 20px auto 0;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.service-bd {
+    margin-top: 50px;
+}
+
+.service-bd li {
+    width: 316px;
+    height: 503px;
+    background-color: #fff;
+    float: left;
+    border: 1px solid #e7e8e9;
+}
+
+.yingxiao {
+    margin: 0 48px;
+}
+
+.service-bd img {
+    margin: 46px 32px;
+    width: 252px;
+    height: 132px;
+}
+.service-bd h3 {
+    height: 44px;
+    font-family: "微软雅黑";
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+}
+.service-bd p {
+    margin: 0 9px;
+    line-height: 22px;
+    color: #c1c1c1;
+    font-size: 11px;
+    font-family: "微软雅黑";
+}
+.service-bd a{
+    display: block;
+    width: 150px;
+    height: 38px;
+    color: #ff9412;
+    border: 1px solid #ffd199;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 5px;
+}
+/*.service-bd div{*/
+/*    margin-bottom: 20px;*/
+/*}*/
+.service-bd a:hover{
+    background-color: #ff9412;
+    color: #ffffff;
+}
