@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: url("image/wx.jpg") repeat-x;
+        }
+        li{
+            list-style-type: none;
+        }
+        a{
+            display: inline-block;
+            color: #ffffff;
+            text-decoration: none;
+            height: 33px;
+            line-height: 33px;
+            background: url("image/to.png") no-repeat;
+            padding-left: 13px;
+            margin: 0 20px;
+        }
+        span{
+            display: inline-block;
+            background: url("image/to.png") no-repeat right;
+            padding-right: 13px;
+        }
+        a:hover{
+            background: url("image/ao.png");
+        }
+        a:hover span{
+            background: url("image/ao.png") right;
+        }
+    </style>
+</head>
+<body>
+<div class="nav">
+    <ul>
+        <li>
+            <a href="#">
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <span>开发工具</span>
+            </a>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
